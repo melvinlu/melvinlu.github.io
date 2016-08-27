@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Breakout! Remix</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <body>
+        <audio loop id="myAudio">
+            <source src="bgmusic.mp3" type="audio/mpeg">
+                <p>Your browser does not support the audio element.</p>
+        </audio>
+        <img id="logo" src="http://melvinlu.me/images/brklogo.png"/>
+        <p id="intro"><strong>How to play:</strong> Just like the classic Breakout game, use the arrow keys to hit the block on the bottom with the ball to score. Unlike the classic game, there are no bricks to hit, the ball gets increasingly faster with each score, and the game goes until you lose.
+            <br />
+            <br />
+            <strong>To do:</strong>
+            <br/>
+        </p>
+        <ul id="todo">
+            <li>Leaderboard/local database</li>
+            <li>Levels/"challenge" mode</li>
+            <li>More appealing interface</li>
+            <li>Mobile compatibility</li>
+            <li><em>Bug fix:</em> Scalability</li>
+            <li><em>Bug fix:</em> Sometimes the ball will bounce up and down when it hits a corner</li>
+            <li><strong>Suggestions?</strong> Contact me at <em>me@melvinlu.me</em></li>
+        </ul>
+        <p id="audioCreds"><a href="http://audiosoundclips.com/audio-loops-music-mp3/">Audio Credit</a>
+        </p>
+        <p id="updateLog"><a href="updatelog">Update Log</a>
+            </li>
+        </p>
+        <p id="disclaimer"><strong><em>DISCLAIMER: CURRENTLY DOES NOT WORK FOR MOBILE</strong>
+            </em>
+            <br />
+        </p>
+        <input id="start" type="button" class="regButton" onclick="play()" value="Play!"/>
+        <br />
+        <canvas id="myCanvas" style="border: 1px solid #000000; visibility: hidden"></canvas>
+        <p id="scoreCount" style="visibility: hidden; font-size: 1.6em" align="center" />
+        <p id="highScoreCount" style="visibility: hidden, font-size: 1.3em" align="center" />
+    </body>
+
+</html>
+</head>
