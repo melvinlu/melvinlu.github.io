@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /* Reset */
 
@@ -2172,7 +2172,7 @@
 				background-color: #e8edec;
 			}
 			.progress {
-		
+
 			  height: 40px;
 			  margin-bottom: 20px;
 			  overflow: hidden;
@@ -2198,7 +2198,7 @@
 			  font-size: 16px;
 			  font-weight: bold;
 			  color: #fff;
-			  text-align: center;	
+			  text-align: center;
 			  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 			  background-color: #0e90d2;
 			  background-image: -moz-linear-gradient(top, #149bdf, #0480be);
