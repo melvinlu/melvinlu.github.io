@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Anon-Pro";
+    src: url("anonpro.ttf");
+}
+
+@font-face {
+    font-family: "Anon-ProB";
+    src: url("anonpro_b.ttf");
+}
+
+@font-face {
+    font-family: "Anon-ProI";
+    src: url("anonpro_i.ttf");
+}
+
+@font-face {
+    font-family: "Anon-ProBI";
+    src: url("anonpro_bi.ttf");
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(bg.png);
+    background-repeat: repeat;
+}
+
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1em;
+    width: 100%;
+}
+
+.title {
+    font-family: "Anon-Pro";
+    font-size: 5.5em;
+}
+
+.link {
+    height: 64px;
+    width: 64px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media(max-width: 500px) {
+    .title {
+        font-size: 3em;
+    }
+    .link {
+        height: 40px;
+        width: 40px;
+    }
+}
