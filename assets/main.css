@@ -24,8 +24,8 @@ html, body {
     text-align: center;
     background: #D3D3D3 url(bg.png);
     background-repeat: repeat;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 #main {
